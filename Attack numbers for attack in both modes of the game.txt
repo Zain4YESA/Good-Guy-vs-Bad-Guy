@@ -1,0 +1,62 @@
+Mode 1: Attack numbers on both side:
+   if Move_of_Hero == Move_of_Villain:
+                    print(f"Draw between {Hero_Player} and {Villain_Player}")
+
+                elif Move_of_Hero == 1 and Move_of_Villain == 0:
+                    print(f"{Hero_Player} gets the hit, POW!")
+
+                elif Move_of_Hero == 2 and Move_of_Villain == -1:
+                    print(f"{Hero_Player} gets shielded by {Villain_Player}'s attack, SHIELD!")
+
+                elif Move_of_Hero == 3 and Move_of_Villain == -2:
+                    print(f"{Hero_Player} gives a power bomb to {Villain_Player}, SLAM!!!!! and {pronouns[0]} defence move gets wasted, OOPS")
+
+                elif Move_of_Hero == 4 and Move_of_Villain == -3:
+                    print(f"{Hero_Player} wins, KO!!!!")
+
+                elif Move_of_Hero == 0 and Move_of_Villain == 1:
+                    print(f"{Villain_Player} gets the hit, POW!")
+
+                elif Move_of_Hero == -1 and Move_of_Villain == 2:
+                    print(f"{Villain_Player} gets shielded by {Hero_Player}'s attack, SHIELD!")
+
+                elif Move_of_Hero == -2 and Move_of_Villain == 3:
+                    print(f"{Villain_Player} gives a power bomb to {Hero_Player}, SLAM!!!!! and {pronouns[1]} defence move gets wasted, OOPS")
+
+                elif Move_of_Hero == -3 and Move_of_Villain == 4:
+                    print(f"{Villain_Player} wins, KO!!!!")
+
+                else:
+                    print("Error!, Something went wrong, this style of fighting not here.")
+
+Mode 2: Attack number on both sides:
+
+   if Move_of_Hero == computer_choice:
+                    print(f"Draw between {Hero_Player} and computer")
+
+                elif Move_of_Hero == 1 and computer_choice == 0:
+                    print(f"{Hero_Player} gets the hit, POW!")
+
+                elif Move_of_Hero == 2 and computer_choice == -1:
+                    print(f"{Hero_Player} gets shielded by computer's attack, SHIELD!")
+
+                elif Move_of_Hero == 3 and computer_choice == -2:
+                    print(f"{Hero_Player} gives a power bomb to computer, SLAM!!!!! and {pronouns[0]} defence move gets wasted, OOPS")
+
+                elif Move_of_Hero == 4 and computer_choice == -3:
+                    print(f"{Hero_Player} wins, KO!!!!")
+
+                elif Move_of_Hero == 0 and computer_choice == 1:
+                    print(f"computer gets the hit, POW!")
+
+                elif Move_of_Hero == -1 and computer_choice == 2:
+                    print(f"computer gets shielded by {Hero_Player}'s attack, SHIELD!")
+
+                elif Move_of_Hero == -2 and computer_choice == 3:
+                    print(f"computer gives a power bomb to {Hero_Player}, SLAM!!!!! and {pronouns[1]} defence move gets wasted, OOPS")
+
+                elif Move_of_Hero == -3 and computer_choice == 4:
+                    print(f"computer wins, KO!!!!")
+
+                else:
+                    print("Error!, Something went wrong, this style of fighting not here.")
